@@ -131,6 +131,35 @@ a {
     margin-left: auto;
 }
 
+.contact-data {
+    display: flex;
+ 
+}
+
+
+
+.contact-icons {
+    align-items: center;
+    margin-right: 10px;
+    /* fill: currentColor; */
+}
+
+/* .contact-icons {
+    
+    background-color: rgba(117, 117, 117, 1);
+    
+} */
+/* .contact-icons:hover .contact-icon,
+.contact-icons:focus .contact-icon {
+    fill: red;
+} */
+
+/* 
+.contact-icons:hover,
+.contact-icons:focus {
+    fill: rgba(33, 150, 243, 1);
+}  */
+
 .menu-nav-link:not(:last-child) {
     margin-right: 50px;
 }
@@ -162,6 +191,13 @@ a {
 .contact-link:hover, .contact-link:focus {
     color: var(--main-btn-bg);
 }
+
+
+/* .contact-icons:hover,
+.contact-icons:focus {
+    fill: var(--main-btn-bg)
+} */
+
 
 /* ----------MAIN PAGE------------- */
 .mane-page {
@@ -231,13 +267,28 @@ a {
 }
 
 .feature-data {
-    width: 270px;
-
+  width: 270px;
+  height: 251px;
 }
 
 .feature-data:not(:last-child) {
-    margin-left: 30px;
+    margin-right: 30px;
 
+}
+
+.feature-icons {    
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
+
+.feature-icon {
+    margin: 25px 100px 25px 100px;
+    
 }
 
 
