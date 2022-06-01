@@ -144,15 +144,15 @@ a {
     /* fill: currentColor; */
 }
 
-/* .contact-icons {
+.contact-icon {
     
-    background-color: rgba(117, 117, 117, 1);
+    fill: currentColor;
     
-} */
-/* .contact-icons:hover .contact-icon,
-.contact-icons:focus .contact-icon {
-    fill: red;
-} */
+}
+.contact-icon:hover,
+.contact-icon:focus {
+    fill: rgba(33, 150, 243, 1);
+}
 
 /* 
 .contact-icons:hover,
