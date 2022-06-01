@@ -135,6 +135,7 @@ a {
 }
 
 .contact-icon {
+    align-items: center;
     vertical-align: middle;
     margin-right: 10px;
     fill: currentColor;     
@@ -171,7 +172,8 @@ a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);    
+    color: var(--main-text-color); 
+    align-items: center;   
 }
 
 .contact-link:hover, .contact-link:focus {
@@ -339,14 +341,13 @@ a {
     margin-bottom: 50px;
 }
 
-
 .team-details {
     display: flex;
 }
 
 .team-data {
     width: 270px;
-    height: 368px;
+    /* height: 428px; */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: var(--card-bg-color);
@@ -374,20 +375,81 @@ a {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--header-second-color)
-    
+    color: var(--header-second-color)    
 }
 
 .team-position {
     text-align: center;
     margin-top: 10px;
-    /* margin-bottom: 30px; */
+    /* margin-bottom: 16px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
+
+.team-social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.team-social-icons {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    background-color:transparent;
+    border-radius: 50%;
+    fill: #AFB1B8;
+}
+
+.team-social-icons:last-child {
+    margin-right: 0;
+}
+
+
+.team-social-icon {
+    fill: inherit;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.team-social-icons:hover, .team-social-icons:hover {
+    fill: rgba(255, 255, 255, 1);
+    background-color:rgba(33, 150, 243, 1);
+}
+
+/* .team-social-icon:hover,
+.team-social-icon:hover {
+    fill: transparent;    
+} */
+/* .team-social-links:hover,
+.team-social-links:hover {
+    fill: inherit;
+    background-color: rgba(33, 150, 243, 1);
+} */
+
+/* ----------------OUR CLIENTS-------------- */
+
+.our-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.our-clients-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--header-second-color);
+    /* margin-bottom: 50px; */
+}
+
 /* ----------------FOOTER---------------------- */
 .footer {
     background: var(--first-page-bg);
