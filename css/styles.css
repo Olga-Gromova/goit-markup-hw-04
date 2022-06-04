@@ -445,6 +445,7 @@ a {
     margin-top: 50px;
     fill:rgba(175, 177, 184, 1);
     background-color: transparent;
+    display: block;
 }
 
 .our-clients-link:not(:last-child) {
@@ -469,8 +470,7 @@ a {
 .our-clients-link:hover {
     border: 1px solid rgba(33, 150, 243, 1);
     fill: #2196F3;
-    background-color: inherit;
-    
+    background-color: inherit;    
 }
 
 
@@ -483,20 +483,6 @@ a {
     fill: inherit;
     background-color: inherit;
 }
-
-
-/* .client-logo-link:focus,
-.client-logo-link:hover {
-    fill: inherit;
-    background-color: inherit;
-}
-
-.client-logo-icon:focus,
-.client-logo-icon:hover {
-    fill: inherit;
-    background-color: inherit;
-} */
-
 
 
 /* ----------------FOOTER---------------------- */
@@ -616,7 +602,7 @@ a {
     padding-bottom: 94px;
 }
 
-/* -----------------PORTGOLIO-BUTTONS-FILTER-------------------- */
+/*--------------PORTGOLIO-BUTTONS-FILTER------------------ */
 
 .btn-filter {
     background: #F5F4FA;
@@ -666,6 +652,7 @@ a {
     height: 404px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    display: block;
 }
 
 .portfolio-sample:hover, .portfolio-sample:focus {
