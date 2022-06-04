@@ -138,6 +138,7 @@ a {
     align-items: center;
     vertical-align: middle;
     margin-right: 10px;
+    margin-top: -2px;
     fill: currentColor;     
 }
 
@@ -454,7 +455,7 @@ a {
     fill: rgba(175, 177, 184, 1);
     width: 160px;
     height: 60px;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .client-logo-icon {
@@ -469,9 +470,22 @@ a {
     border: 1px solid rgba(33, 150, 243, 1);
     fill: #2196F3;
     background-color: inherit;
+    
 }
 
-.client-logo-link:focus,
+
+.client-logo-link {
+    fill: inherit;
+    background-color: inherit;
+}
+
+.client-logo-icon {
+    fill: inherit;
+    background-color: inherit;
+}
+
+
+/* .client-logo-link:focus,
 .client-logo-link:hover {
     fill: inherit;
     background-color: inherit;
@@ -481,7 +495,7 @@ a {
 .client-logo-icon:hover {
     fill: inherit;
     background-color: inherit;
-}
+} */
 
 
 
@@ -660,15 +674,18 @@ a {
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
-    background: inherit;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
-    text-shadow: none;
+    background: inherit;   
 }
+
+/* .portfolio-sample:hover .portfolio-img,
+.portfolio-sample:focus .portfolio-img {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
+} */
 
 .portfolio-data {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;        
+    justify-content: space-between;      
 }
 
 .portfolio-sample:nth-last-child(n+6) {
@@ -680,11 +697,10 @@ a {
     height: 294px;
 }
 
-
 .portfolio-title {
-    padding: 20px 24px 20px 24px;
+    filter:initial;
+    padding: 20px 24px 20px 24px;   
 }
-
 
 .portfolio-name {
     font-weight: 700;
